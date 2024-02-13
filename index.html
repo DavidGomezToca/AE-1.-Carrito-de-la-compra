@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    <script type="text/javascript" src="code.js"></script>
+    <title>Carrito de la compra</title>
+  </head>
+  <body>
+    <form action="#" autocomplete="on">
+      <fieldset>
+        <div id="divArticleName">
+          <label for="inputArticleName">Nombre Artículo: </label>
+          <br />
+          <input type="text" id="inputArticleName" />
+          <span>Error</span>
+        </div>
+        <div id="divArticlePrice">
+          <label for="inputArticlePrice">Precio Artículo: </label>
+          <br />
+          <input type="text" id="inputArticlePrice" />
+          <span>Error</span>
+        </div>
+        <div id="divArticleUnits">
+          <label for="inputArticleUnits">Unidades: </label>
+          <br />
+          <input type="text" id="inputArticleUnits" />
+          <span>Error</span>
+        </div>
+        <div id="divAddToCart">
+          <input type="button" id="inputAddToCart" value="Añadir al carrito" />
+        </div>
+        <div id="divArticlesList">
+          <label for="inputArticlesList">Artículos en el carrito: </label>
+          <input type="text" id="inputArticlesList" readonly />
+        </div>
+        <div id="divArticlesTotalPrice">
+          <label for="inputArticlesTotalPrice"
+            >Precio total del carrito:
+          </label>
+          <input type="text" id="inputArticlesTotalPrice" readonly />
+        </div>
+        <div id="divPayMethod">
+          <label for="selectPayMethod">Forma de pago: </label>
+          <select id="selectPayMethod">
+            <option value="null">-- Seleccione --</option>
+            <option value="card">Tarjeta</option>
+            <option value="cash">Efectivo</option>
+          </select>
+        </div>
+
+        <div id="payMethodCard">
+          <div id="divCardOwner">
+            <label for="inputCardOwner">Titular tarjeta: </label>
+            <br />
+            <input type="text" id="inputCardOwner" />
+            <span>Error</span>
+          </div>
+          <div id="divCardNumber">
+            <label for="inputCardNumber">Número tarjeta: </label>
+            <br />
+            <input type="text" id="inputCardNumber" />
+            <span>Error</span>
+          </div>
+          <div id="divCVV">
+            <label for="inputCVV">CVV: </label>
+            <br />
+            <input type="text" id="inputCVV" />
+            <span>Error</span>
+          </div>
+        </div>
+
+        <div id="payMethodCash">
+          <div id="divMoneyIntroduce">
+            <label for="inputMoneyIntroduce">Cantidad pagar: </label>
+            <br />
+            <input type="text" id="inputMoneyIntroduce" />
+            <span>Error</span>
+          </div>
+        </div>
+
+        <div id="divConditions">
+          <input type="checkbox" id="inputConditions" />
+          <label for="inputConditions">Acepto las condiciones de compra.</label>
+        </div>
+        <div id="divOptionsButtons">
+          <input type="button" id="inputConfirm" value="Imprimir" />
+          <input type="button" id="inputReset" value="Restablecer" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

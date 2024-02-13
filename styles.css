@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f8ff;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #59429d;
+  margin: 2% 30% 0% 30%;
+  justify-content: center;
+}
+
+fieldset {
+  border-radius: 10px;
+  padding: 4%;
+  border-color: #928bbb;
+}
+
+input,
+select {
+  margin: 8px 0px 30px;
+}
+
+#inputConditions {
+  margin-bottom: 20px;
+}
+
+#divOptionsButtons input {
+  margin-bottom: 0px;
+}
+
+input[type="text"],
+select {
+  padding: 2px;
+  color: #59429d;
+  font-size: 16px;
+  border: 1px solid #59429d;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+  display: inline;
+}
+
+#inputArticlesList,
+#inputArticlesTotalPrice,
+#selectPayMethod {
+  display: block;
+}
+
+#inputArticleName {
+  width: 200px;
+}
+
+#inputArticlePrice,
+#inputArticleUnits,
+#inputArticlesTotalPrice {
+  width: 80px;
+}
+
+#inputArticlesList {
+  width: 400px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="button"] {
+  font-size: 18px;
+  background-color: #59429d;
+  border: 0;
+  border-radius: 6px;
+  color: #fff;
+  padding: 4px 8px;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.5);
+}
+
+input[type="button"]:disabled {
+  background-color: #b9b9b9;
+}
+
+input[type="button"]:disabled:hover {
+  background-color: #c2c2c2;
+}
+
+input[type="checkbox"] {
+  height: 18px;
+  width: 18px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Actualizar a JS*/
+input[type="button"]:hover {
+  background-color: #732bb4;
+}
+
+:focus {
+  outline: 2px solid #782abf;
+}
